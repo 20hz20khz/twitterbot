@@ -1,10 +1,10 @@
 <?php
 require_once('twitteroauth.php');
 
-define('CONSUMER_KEY', 'xxxxxxxxxxxxxxxxxxxx');
-define('CONSUMER_SECRET', 'xxxxxxxxxxxxxxxxxxxx');
-define('ACCESS_TOKEN', 'xxxxxxxxxxxxxxxxxxxx');
-define('ACCESS_TOKEN_SECRET', 'xxxxxxxxxxxxxxxxxxxx');
+define('CONSUMER_KEY', 'xxxxxxxxxxxxxxxxxxxx'); // Redacted
+define('CONSUMER_SECRET', 'xxxxxxxxxxxxxxxxxxxx'); // Redacted
+define('ACCESS_TOKEN', 'xxxxxxxxxxxxxxxxxxxx'); // Redacted
+define('ACCESS_TOKEN_SECRET', 'xxxxxxxxxxxxxxxxxxxx'); // Redacted
 
 $twitter = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET);
 $my_array = array("I recommend Glenn Miller","I recommend Benny Goodman","I recommend Mitch Miller","I recommend Lawrence Welk","I recommend Perry Como","I recommend Henry Mancini","I recommend Pat Boone");
