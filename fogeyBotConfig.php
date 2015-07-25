@@ -34,3 +34,4 @@ foreach($search->results as $tweet) {
 }
 
 echo "Success! Check your twitter bot for ".$output_count." new tweets!";
+?>
